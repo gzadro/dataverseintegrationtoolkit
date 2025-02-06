@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataverseIntegrationToolkit", "DataverseIntegrationToolkit\DataverseIntegrationToolkit.csproj", "{57F3B4DD-4A28-4586-B4B2-C24222FAB112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataverseIntegrationToolkit.Tests", "DataverseIntegrationToolkit.Tests\DataverseIntegrationToolkit.Tests.csproj", "{D55CDC8B-284B-4559-8D03-10E07BCD281E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FDC112C3-F6BD-4472-86B3-A5BD89332F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57F3B4DD-4A28-4586-B4B2-C24222FAB112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F3B4DD-4A28-4586-B4B2-C24222FAB112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F3B4DD-4A28-4586-B4B2-C24222FAB112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F3B4DD-4A28-4586-B4B2-C24222FAB112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55CDC8B-284B-4559-8D03-10E07BCD281E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55CDC8B-284B-4559-8D03-10E07BCD281E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55CDC8B-284B-4559-8D03-10E07BCD281E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55CDC8B-284B-4559-8D03-10E07BCD281E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D55CDC8B-284B-4559-8D03-10E07BCD281E} = {FDC112C3-F6BD-4472-86B3-A5BD89332F9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB7A486-D29F-44DA-A827-D573A273E57F}
+	EndGlobalSection
+EndGlobal
